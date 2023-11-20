@@ -24,7 +24,7 @@ html{
     font-weight: 800;
 }
 
-h1 {
+header h1 {
     text-align: center;
     margin: -4px 0;
     letter-spacing: 0.15px;
@@ -39,4 +39,13 @@ p {
 .divider {
     border-bottom: 1px solid gray;
     margin: 2px 0;
+}
+
+.large {
+    height: 10px;
+}
+
+.large, .medium {
+    background-color: black;
+    border: 0;
 }
